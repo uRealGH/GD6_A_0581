@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun sendNotification2() {
 
-        val builder = NotificationCompat.Builder(this, CHANNEL_ID_1)
+        val builder = NotificationCompat.Builder(this, CHANNEL_ID_2)
             .setSmallIcon(R.drawable.ic_baseline_looks_two_24)
             .setContentTitle(binding?.etTitle?.text.toString())
             .setContentText(binding?.etMessage?.text.toString())
